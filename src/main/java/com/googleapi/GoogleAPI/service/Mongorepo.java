@@ -4,6 +4,7 @@ package com.googleapi.GoogleAPI.service;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 
+
 public interface Mongorepo extends MongoRepository<Datavalue,String>{
 
 	
